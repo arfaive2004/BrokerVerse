@@ -1,0 +1,190 @@
+# =========================
+
+# Environment variables
+
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+*.so
+.Python
+
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+
+*.manifest
+*.spec
+
+# Testing / coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# =========================
+
+# FastAPI / Backend
+
+# =========================
+
+# Local SQLite databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded KYC / temporary files
+
+uploads/
+storage/
+tmp/
+
+# Logs
+
+*.log
+logs/
+
+# =========================
+
+# Node / Next.js Frontend
+
+# =========================
+
+node_modules/
+
+.next/
+out/
+dist/
+
+# Next.js build/cache
+
+.next/cache/
+
+# Vercel
+
+.vercel/
+
+# npm / yarn / pnpm logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+
+# IDE / Editors
+
+# =========================
+
+.vscode/
+.idea/
+
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio
+
+.vs/
+
+# Sublime
+
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+
+# OS files
+
+# =========================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+
+# Temporary files
+
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# =========================
+
+# Sensitive files
+
+# =========================
+
+# API keys / secrets
+
+*.pem
+*.key
+
+# Keep environment examples
+
+!.env.example
